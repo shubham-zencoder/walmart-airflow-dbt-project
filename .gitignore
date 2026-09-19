@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Airflow logs
+**/logs/
+
+# Airflow generated configuration
+**/airflow.cfg
+
+# dbt
+dbt_packages/
+target/
+dbt/target/
+dbt/logs/
+
+# OS
+.DS_Store
+Thumbs.db
